@@ -191,5 +191,7 @@ div.longtable{text-align:center;}
 table.longtable{margin-left:auto; margin-right: auto;}
 caption.longtable .id{font-weight:bold;}
 .supertabular {text-align:center}
+.fbox {padding-top:3.0pt}
+.center > .fbox {margin-left:auto;margin-right:auto;text-align:center;}
 /* end css.sty */
 
