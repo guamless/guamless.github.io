@@ -1,13 +1,20 @@
  
 /* start css.sty */
+.cmr-5{font-size:45%;}
 .cmr-10{font-size:90%;}
 .cmr-10x-x-109{}
 .cmr-17{font-size:154%;}
 .cmr-12{font-size:109%;}
+.cmr-6{font-size:54%;}
+.cmmi-6{font-size:54%;font-style: italic;}
+.cmsy-6{font-size:54%;}
 .cmtt-10x-x-109{font-family: monospace,monospace;}
 .cmbx-10x-x-109{ font-weight: bold;}
 .cmti-10x-x-109{ font-style: italic;}
 .cmr-9{font-size:81%;}
+.tcrm-0900{font-size:81%;}
+.cmmi-9{font-size:81%;font-style: italic;}
+.cmsy-9{font-size:81%;}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
 p + p{margin-top:1em;}
@@ -22,15 +29,6 @@ td center { margin-top:0em; margin-bottom:0em; }
 .Canvas { position:relative; }
 img.math{vertical-align:middle;}
 div.par-math-display, div.math-display{text-align:center;}
-body{ margin:1em auto; max-width:80ch; padding:0 .62em; }
-h1,h2,h3,h4,h5 { line-height:1.2; }
-@media print{ body{ max-width:none } }
-.partHead, .likepartHead { font-size: 2em; }
-.chapterHead, .likechapterHead { font-size: 1.7411em; }
-.sectionHead, .likesectionHead { font-size: 1.5157em; }
-.subsectionHead, .likesubsectionHead { font-size: 1.3195em; }
-.subsubsectionHead, .likesubsubsectionHead { font-size: 1.1487em; }
- @media (prefers-color-scheme: dark) { img[src^="rolling"]{filter: invert(1); } } 
 li p.indent { text-indent: 0em }
 li p:first-child{ margin-top:0em; }
 li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -191,7 +189,20 @@ div.longtable{text-align:center;}
 table.longtable{margin-left:auto; margin-right: auto;}
 caption.longtable .id{font-weight:bold;}
 .supertabular {text-align:center}
-.fbox {padding-top:3.0pt}
+body{ margin:1em auto; max-width:80ch; padding:0 .62em; }
+h1,h2,h3,h4,h5 { line-height:1.2; }
+@media print{ body{ max-width:none } }
+.partHead, .likepartHead { font-size: 2em; }
+.chapterHead, .likechapterHead { font-size: 1.7411em; }
+.sectionHead, .likesectionHead { font-size: 1.5157em; }
+.subsectionHead, .likesubsectionHead { font-size: 1.3195em; }
+.subsubsectionHead, .likesubsubsectionHead { font-size: 1.1487em; }
+ @media (prefers-color-scheme: dark) { img[src^="rolling"]{filter: invert(1); } div.center>div.fbox {border: 0.4pt solid white;} } 
+ body { background-color: Canvas; color: CanvasText; color-scheme: light dark; } 
+.fbox {padding-top:3.0pt;}
 .center > .fbox {margin-left:auto;margin-right:auto;text-align:center;}
+span#textcolor1{color:#00FFFF}
+span#textcolor2{color:#00FFFF}
+img[src="rolling0x.svg"]{vertical-align:-48.09689560814%}
 /* end css.sty */
 
